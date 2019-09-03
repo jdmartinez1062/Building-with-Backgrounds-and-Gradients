@@ -302,29 +302,35 @@ main {
 }
 
 .bottom-img-div {
+  display: inline-block;
   box-sizing: border-box;
-  width: 360px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   margin-top: 2px;
 }
 
-.bottom-div .fs {
+.bottom-div .img-a{
+  width: 360px;
+  height: 200px;
+}
+
+.bottom-div .img-a .fs {
   background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
 }
 
-.bottom-div .fc {
+.bottom-div .img-a .fc {
   background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
 }
 
-.bottom-div .mac {
+.bottom-div .img-a .mac {
   background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
 }
 
-.bottom-div .supplier {
+.bottom-div .img-a .supplier {
   background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
 }
 
-.bottom-div span {
+.bottom-div .img-a span {
   box-sizing: border-box;
   background-clip: content-box;
   background-position: 0 100%;
@@ -332,12 +338,12 @@ main {
   border: 0;
 }
 
-.bottom-div .left-img {
+.bottom-div .img-a .left-img {
   padding-left: 0;
   background-position: -2px 100%;
 }
 
-.bottom-div .right-img {
+.bottom-div .img-a .right-img {
   padding-right: 0;
   padding-left: 2px;
   background-position: 365px 100%;
